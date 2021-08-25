@@ -1,0 +1,70 @@
+body{
+    margin:  auto;
+    width: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    background-image: url(imagenes/panoramica.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 170px;   
+}
+
+#a{
+    color: olivedrab;
+}
+
+#b{
+    color: peru;
+}
+
+h2{
+    color: yellowgreen;
+    text-decoration:underline;
+}
+
+h3{
+    color:sandybrown;
+}
+
+div{
+    margin-left: 150px;
+    border: 1pt solid gainsboro;
+    padding: 1%;
+}
+
+.menu{
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    list-style-type: none;
+}
+a{
+    background: linear-gradient(180deg, white 0%, #c6e17c 100%);
+    border: #d3d3d3 1px solid;
+    width: 118px;
+    margin-bottom: 14px;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+#inicio{
+    background: linear-gradient(180deg, white 0%, #e2c6a9 100%);
+}
+
+#inicio:hover{
+    background: linear-gradient(180deg, #e2c6a9 0%, white 100%);
+}
+
+a:hover{
+    background: linear-gradient(180deg, #c6e17c  0%, white 100%);
+}
